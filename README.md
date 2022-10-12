@@ -1,6 +1,6 @@
 # AutoCorrect Extension for PopClip
 
-基于 [AutoCorrect](https://github.com/huacnlee/autocorrect) 的 PopClip 插件，用于「自动纠正」或「检查并建议」文案，给 CJK（中文、日语、韩语）与英文混写的场景，补充正确的空格，纠正单词，同时尝试以安全的方式自动纠正标点符号等等。
+基于 [AutoCorrect](https://github.com/huacnlee/autocorrect) 实现的 PopClip 插件，用于「自动纠正」或「检查并建议」文案，给 CJK（中文、日语、韩语）与英文混写的场景，补充正确的空格，纠正单词，同时尝试以安全的方式自动纠正标点符号等等。
 
 ## 安装
 
@@ -25,7 +25,7 @@ curl -sSL https://git.io/JcGER | bash
 
 3. **安装 AutoCorrect Extension for PopClip**
 
-鼠标选中下方 6 行 YAML 代码块后，PopClip 开启状态下会自动弹出提示 `Install Extension "AutoCorrect"`，点击即可安装。在 M* 芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果 AutoCorrect 在你的 Mac 中不是此路径，请在终端中输入 `which autocorrect`，然后用输出结果替换下方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行的文件的路径不可省略。
+鼠标选中下方 6 行 YAML 代码块后，PopClip 开启状态下会自动弹出提示 `Install Extension "AutoCorrect"`，点击即可安装。
 
 ```yaml
 # popclip AutoCorrect
@@ -36,7 +36,9 @@ applescript: do shell script "export LANG='en_US.UTF-8' && /bin/echo '{popclip t
 after: paste-result
 ```
 
-或者下载
+在 M 系列芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果 AutoCorrect 在你的 Mac 中不是此路径，请在终端中输入 `which autocorrect`，然后用输出结果替换下方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行的文件的路径不可省略。
+
+或者直接下载 [autocorrect.popclipext](https://github.com/TomBener/autocorrect-popclip/releases/download/1.0/autocorrect.popclipext.zip)，解压之后双击安装。
 
 ## 使用效果
 
