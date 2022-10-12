@@ -30,13 +30,13 @@
    ```yaml
    # popclip AutoCorrect
    name: AutoCorrect
-   title: CJK Formatting
+   title: Formatting CJK
    icon: square CJK
    applescript: do shell script "export LANG='en_US.UTF-8' && /bin/echo '{popclip text}' | /opt/homebrew/bin/autocorrect --stdin"
    after: paste-result
    ```
 
-   在 M 系列芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果 AutoCorrect 在你的 Mac 中不是此路径，请在终端中输入 `which autocorrect`，然后用输出结果替换下方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行的文件的路径不可省略。
+   在 M 系列芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果 AutoCorrect 在你的 Mac 中不是此路径，请在终端中输入 `which autocorrect`，然后用输出结果替换上方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行的文件的路径不可省略。
 
    或者直接下载 [autocorrect.popclipext](https://github.com/TomBener/autocorrect-popclip/releases/download/1.0/autocorrect.popclipext.zip)，解压之后双击安装。
 
