@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>autocorrect.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
+            <key>Shell Script File</key>
+            <string>autocorrect.sh</string>
+			<key>Stoppable</key>
+			<false/>
+			<key>Title</key>
+			<string>Formatting CJK</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>com.tomben.autocorrect.extension</string>
+	<key>Extension Name</key>
+	<string>AutoCorrect</string>
+	<key>Extension Description</key>
+	<string>Improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).</string>
+</dict>
+</plist>
