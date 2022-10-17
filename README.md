@@ -38,7 +38,7 @@
 
    在 M 系列芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果你的 Mac 中 AutoCorrect 不安装在此位置，可以在终端中输入 `which autocorrect`，然后用输出结果替换上方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行文件的路径**不可省略**。
 
-   或者直接下载 Releases 中的 [autocorrect.popclipext.zip](https://github.com/TomBener/autocorrect-popclip/releases)，解压之后双击安装。
+   或者直接下载 Releases 中的 [autocorrect-popclip.popclipext.zip](https://github.com/TomBener/autocorrect-popclip/releases)，解压之后双击安装。
 
 ## 使用效果
 
