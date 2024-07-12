@@ -6,18 +6,17 @@
 
 1. **安装 PopClip**
 
-   - 前往 [官网](https://pilotmoon.com/popclip/) 下载，可以免费试用
-   - 或在 [Mac App Store](https://apps.apple.com/app/popclip/id445189367) 中购买，售价 $14.99（¥98.00）
+   - 前往 [官网](https://www.popclip.app) 下载，免费版可以使用 250 次，[付费](https://www.popclip.app/buy) 解锁无限使用次数。
 
 2. **安装 AutoCorrect**
 
-   - 通过 [Homebrew](https://brew.sh/) 安装：
+   - 通过 [Homebrew](https://brew.sh) 安装：
 
    ```shell
    brew install autocorrect
    ```
 
-   - 或者使用 [Curl](https://curl.se/) 安装：
+   - 或者使用 [Curl](https://curl.se) 安装：
 
    ```shell
    curl -sSL https://git.io/JcGER | bash
@@ -36,7 +35,7 @@
    after: paste-result
    ```
 
-   在 M 系列芯片的 Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果你的 Mac 中 AutoCorrect 不安装在此位置，可以在终端中输入 `which autocorrect`，然后用输出结果替换上方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行文件的路径**不可省略**。
+   在 Apple Silicon Mac 上，使用 Homebrew 安装的 AutoCorrect 路径为 `/opt/homebrew/bin/autocorrect`。如果你的 Mac 中 AutoCorrect 不安装在此位置，可以在终端中输入 `which autocorrect`，然后用输出结果替换上方的 `/opt/homebrew/bin/autocorrect`。请注意，可执行文件的路径**不可省略**。
 
    或者直接下载 Releases 中的 [autocorrect-popclip.popclipext.zip](https://github.com/TomBener/autocorrect-popclip/releases)，解压之后双击安装。
 
